@@ -2,7 +2,7 @@
   "ecs7": true,
   "runtimeVersion": "7",
   "display": {
-    "title": "Hukasu dev box",
+    "title": "Hukasu dev box Parcel 2",
     "description": "Dev tools",
     "favicon": "favicon_asset",
     "navmapThumbnail": ""
@@ -15,9 +15,9 @@
   "main": "bin/index.js",
   "tags": [],
   "scene": {
-    "base": "0,0",
+    "base": "0,1",
     "parcels": [
-      "0,0"
+      "0,1"
     ]
   },
   "spawnPoints": [
