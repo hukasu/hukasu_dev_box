@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       scene:
-        description: 'Scene folder to deploy (e.g. scenes/88,-10-audio-visualization)'
+        description: 'Scene folder to deploy (e.g. scenes/box)'
         type: string
         required: true
 
