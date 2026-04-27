@@ -1,0 +1,10 @@
+{
+  "folders": [
+    {
+      "path": "scenes/sphere"
+    },
+    {
+      "path": "scenes/box"
+    }
+  ]
+}

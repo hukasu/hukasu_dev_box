@@ -1,0 +1,30 @@
+{
+  "name": "hukasu-dcl-eth",
+  "version": "0.1.0",
+  "description": "Hukasu Dev Box",
+  "main": " ",
+  "scripts": {
+    "install-sdk": "npm i @dcl/sdk@latest --workspaces",
+    "build": "sdk-commands build",
+    "start": "node ./check-parcel-collisions.js && sdk-commands start",
+    "export-static": "sdk-commands export-static",
+    "check-parcels": "node ./check-parcel-collisions.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": " "
+  },
+  "keywords": [],
+  "author": "Hukasu",
+  "license": "ISC",
+  "dependencies": {
+    "@dcl/js-runtime": "=7.22.5",
+    "@dcl/sdk": "=7.22.5",
+    "glob": "=13.0.6",
+    "syncpack": "=14.3.1"
+  },
+  "workspaces": [
+    ".",
+    "scenes/*"
+  ]
+}
