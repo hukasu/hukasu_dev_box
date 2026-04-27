@@ -1,7 +1,7 @@
 {
-  "name": "cube-spawner",
+  "name": "box",
   "version": "1.0.0",
-  "description": "SDK7 Template scene",
+  "description": "Hukasu dev box",
   "scripts": {
     "start": "sdk-commands start",
     "deploy": "sdk-commands deploy",
@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@dcl/sdk": "=7.22.5",
-    "@dcl/js-runtime": "7.22.5"
+    "@dcl/js-runtime": "=7.22.5"
   },
   "engines": {
     "node": ">=16.0.0",
@@ -24,6 +24,6 @@
     "trailingComma": "none"
   },
   "dependencies": {
-    "@dcl/sdk-commands": "^7.21.0"
+    "@dcl/sdk-commands": "=7.22.5"
   }
 }
