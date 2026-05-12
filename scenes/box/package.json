@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@dcl/sdk": "=7.22.5",
-    "@dcl/js-runtime": "=7.22.5"
+    "@dcl/js-runtime": "7.22.5"
   },
   "engines": {
     "node": ">=16.0.0",

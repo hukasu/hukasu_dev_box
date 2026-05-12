@@ -50,6 +50,9 @@
 		"ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE"
 	],
 	"featureToggles": {},
+	"skyboxConfig": {
+		"fixedTime": 21600
+	},
 	"worldConfiguration": {
 		"name": "hukasu.dcl.eth"
 	}
